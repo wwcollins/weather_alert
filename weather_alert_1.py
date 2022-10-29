@@ -59,7 +59,6 @@ if file_exists(TEST_FILE_JSON) == False:
 else: #read the test file and retrieve content, to dataframe?
     df = json_to_dataframe(TEST_FILE_JSON)
 
-
 print (df)
 
 
