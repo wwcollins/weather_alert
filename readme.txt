@@ -1,18 +1,24 @@
 to clone existing repo from wwcollins at github
 
-gh repo clone wwcollins/noaa-weather-and-tides
+gh repo clone wwcollins/noaa-weather-and-tides OR
+
+using CircleCI:  https://app.circleci.com/pipelines/github/wwcollins/noaa-weather-and-tides
+setup repo
 
 
 openweathermap.org
 
 API_KEY:  d7794bbe3d41d7dbcd0c93c331d5e819  Name: weatheralert
 
-https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={API key}
-
 with key...
 
 no exlusions
 https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=d7794bbe3d41d7dbcd0c93c331d5e819
+
+with exclusions
+https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid={API key}
+
+
 
 
 Call below, with exclusions...
